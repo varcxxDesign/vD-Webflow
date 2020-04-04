@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon May 21 2018 22:09:39 GMT+0000 (UTC)  -->
+<!--  Last Published: Wed Sep 05 2018 06:10:12 GMT+0000 (UTC)  -->
 <html data-wf-page="596fc9edf4db77607ee8a392" data-wf-site="596fc9edf4db77607ee8a391">
 <head>
   <meta charset="utf-8">
@@ -8,16 +8,19 @@
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Kvxb9V9mlT2KbLA6yAqjTs-rOM3FxBeL0lrcmpu3C7g" name="google-site-verification">
   <meta content="Webflow" name="generator">
+  <style>.w-form-formrecaptcha {   margin-bottom: 8px; }</style>
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/varcxxdesign.webflow.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">WebFont.load({  google: {    families: ["Oswald:200,300,400,500,600,700","Amatic SC:regular","Raleway:100,regular,800"]  }});</script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Oswald:200,300,400,500,600,700","Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Amatic SC:regular","Raleway:100,regular,800"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
   <link href="images/varcxxDesign-32px.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/varcxxDesign-256px.png" rel="apple-touch-icon">
-  <meta name="google-site-verification" content="Kvxb9V9mlT2KbLA6yAqjTs-rOM3FxBeL0lrcmpu3C7g">
+  <script src="https://www.google.com/recaptcha/api.js" type="text/javascript"></script>
+  <meta name="google-site-verification" content="Kvxb9V9mlT2KbLA6yAqjTs-rOM3FxBeL0lrcmpu3C7g" />
+
   <!--  Google Tag Manager  -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -92,30 +95,69 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
     <div id="contact-section" class="contact section">
       <div class="w-container">
-        <p class="section-p">What are we looking at? Based on your insights, state the design challenge.</p>
+        <p class="section-p">What are we looking at?<br /> State the design challenge.</p>
+
+        <!-- WEBFLOW FORM -->
         <div id="4cb2359e34" class="form-block w-form">
-          <form id="email-form" name="email-form" data-name="Email Form" action="https://varcxx.us17.list-manage.com/subscribe/post?u=e9c1ad7626f12cd37c2bc2ea3&amp;amp;id=4cb2359e34" method="post"><textarea id="MESSAGE" name="MESSAGE" data-name="MESSAGE" maxlength="5000" placeholder="How might we..." class="textarea w-input"></textarea><label for="NAME-2" class="field-label">Name:</label><input type="text" class="text-field w-input" maxlength="256" name="NAME" data-name="NAME" placeholder="Name" id="NAME" required="">
+
+          <form id="email-form" name="email-form" data-name="Email Form" action="https://varcxx.us17.list-manage.com/subscribe/post?u=e9c1ad7626f12cd37c2bc2ea3&amp;amp;id=4cb2359e34" method="post" data-redirect="/contact/schedule-phone-call.html" redirect="/contact/schedule-phone-call.html">
+
+            <textarea id="MESSAGE" name="MESSAGE" data-name="MESSAGE" maxlength="5000" placeholder="How might we..." class="textarea w-input"></textarea>
+
+            <label for="NAME-2" class="field-label">Name:</label>
+            <input type="text" class="text-field w-input" maxlength="256" name="NAME" data-name="NAME" placeholder="Name" id="NAME" required="">
+            
             <div class="row-2 w-row">
               <div class="column-9 w-col w-col-6">
-                <div class="div-block-4"><label for="EMAIL-2" class="field-label">Email:</label><input type="email" class="text-field-2 w-input" maxlength="256" name="EMAIL" data-name="EMAIL" placeholder="Email" id="EMAIL" required=""></div>
+                <div class="div-block-4">
+
+                  <label for="EMAIL-2" class="field-label">Email:</label>
+                  <input type="email" class="text-field-2 w-input" maxlength="256" name="EMAIL" data-name="EMAIL" placeholder="Email" id="EMAIL" required="">
+
+                </div>
               </div>
               <div class="column-10 w-col w-col-6">
-                <div class="div-block-4"><label for="PHONE-2" class="field-label">Phone</label><input type="text" id="PHONE" name="PHONE" data-name="PHONE" placeholder="Phone Number" maxlength="256" class="text-field-3 w-input"></div>
+                <div class="div-block-4">
+
+                  <label for="PHONE-2" class="field-label">Phone</label>
+                  <input type="text" id="PHONE" name="PHONE" data-name="PHONE" placeholder="Phone Number" maxlength="256" class="text-field-3 w-input">
+
+                </div>
               </div>
-            </div><label for="MESSAGE-2" class="field-label">Message</label><input type="submit" value="Explore" data-wait="Good work, we&#x27;re almost there..." class="submit-button w-button">
+            </div>
+
+           <!--  <div data-sitekey="6Le9bW4UAAAAAHkzoBcZgyZCVuvJGxj1z5Ze3imc" class="w-form-formrecaptcha recaptcha g-recaptcha g-recaptcha-error g-recaptcha-disabled"></div> -->
+            <div class="g-recaptcha" data-sitekey="6Le9bW4UAAAAAHkzoBcZgyZCVuvJGxj1z5Ze3imc"></div>
+
+            
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e9c1ad7626f12cd37c2bc2ea3_4cb2359e34" tabindex="-1" value=""></div>
+            <input type="submit" value="Find out" data-wait="Good work, we&#x27;re almost there..." class="submit-button w-button">
+
             <p class="paragraph">We respect your privacy. Your information is safe and will never be shared.</p>
+            
+
           </form>
+
+          <!--FORM RESPONSE DIALOG -->
           <div class="success-message w-form-done">
             <div class="section-p">Thank you! Your submission has been received!</div>
           </div>
           <div class="w-form-fail">
-            <div>Oops! Something went wrong while submitting the form</div>
+            <div class="text-block-8">Aw Snap! Something went wrong while submitting the form :(</div>
           </div>
         </div>
+<!--END WEBFLOW FORM-->
+
+
+
         <div class="section-footer"></div>
       </div>
     </div>
   </div>
+
+  <!-- HIDDEN SECTION -->
+
   <div class="team-section section">
     <h1 class="section-heading-w-background section">WE ARE a team</h1>
     <div class="w-container">
@@ -202,6 +244,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="section-footer"></div>
     </div>
   </div>
+
   <div class="projects">
     <div class="w-container">
       <h2 class="section-heading">OUR WORK</h2>
@@ -219,7 +262,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="section-footer"></div>
     </div>
   </div>
-  <h2 class="section-heading section">look inside</h2>
+
+  <!-- END HIDDEN SECTION -->
+
+  <h2 class="section-heading section">Take a look</h2>
   <div class="social section">
     <div class="w-container">
       <p class="section-p">For insights on the User Experience Design domain, innovative product services, and the Internet of Things, follow us @varcxxDesign</p>
@@ -229,7 +275,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </div>
   <div class="footer">
     <div class="div-block-3"><a href="http://varcxx.com" class="varcxx-link w-inline-block"><img src="images/logo_2-white.png" width="63" class="image-4"></a>
-      <div class="text-block-4">All rights reserved 2018 VARCXX</div>
+      <div class="text-block-4">All rights reserved 2018 <br>VARCXX LLC</div>
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

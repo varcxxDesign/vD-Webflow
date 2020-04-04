@@ -386,7 +386,7 @@
 }
 
 .container-2 {
-  display: none;
+  display: block;
 }
 
 .div-block-2 {
@@ -424,6 +424,7 @@
   font-family: Raleway, sans-serif;
   color: #727272;
   font-size: 12px;
+  font-weight: 400;
 }
 
 .text-span-3 {
@@ -500,8 +501,10 @@
 }
 
 .paragraph {
+  margin-bottom: 20px;
   font-family: Raleway, sans-serif;
   font-size: 24px;
+  line-height: 31px;
   font-weight: 300;
   text-align: center;
 }
@@ -933,6 +936,220 @@
 
 .varcxx-link:active {
   opacity: 1;
+}
+
+.success {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.text-block-5 {
+  display: block;
+  margin-top: 52px;
+  margin-bottom: 53px;
+  padding-right: 20px;
+  padding-left: 20px;
+  clear: right;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  font-family: Raleway, sans-serif;
+  color: #000;
+  font-size: 48px;
+  line-height: 1.2em;
+  font-weight: 100;
+  text-align: center;
+}
+
+.text-span-5 {
+  font-size: 24px;
+  line-height: 10px;
+}
+
+.html-embed {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  clear: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.html-embed-2 {
+  display: block;
+  width: 590px;
+  height: 1091px;
+  margin-top: 30px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.contactpage-header {
+  height: 300px;
+  padding-top: 39px;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .66), rgba(0, 0, 0, .66)), url('../images/managing-remote-teams.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .66), rgba(0, 0, 0, .66)), url('../images/managing-remote-teams.jpg');
+  background-position: 0px 0px, 0px -245px;
+  background-size: auto, cover;
+  text-align: center;
+}
+
+.text-block-6 {
+  padding-bottom: 7px;
+  font-family: Oswald, sans-serif;
+  color: #fff;
+  font-size: 34px;
+  line-height: 34px;
+}
+
+.text-block-7 {
+  margin-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.image-6 {
+  margin-bottom: 34px;
+}
+
+.text-field-4 {
+  width: 45%;
+  margin-right: 10px;
+  float: left;
+}
+
+.text-field-5 {
+  width: 45%;
+}
+
+.form {
+  margin-top: 60px;
+}
+
+.text-field-6 {
+  width: 91%;
+  margin-bottom: 35px;
+}
+
+.submit-button-2 {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.checkbox-field {
+  margin-left: 10px;
+}
+
+.checkbox-field-2 {
+  margin-bottom: 27px;
+  margin-left: 10px;
+}
+
+.text-field-7 {
+  width: 45%;
+  margin-right: 10px;
+  margin-bottom: 47px;
+  float: left;
+  clear: none;
+}
+
+.field-label-2 {
+  margin-top: 30px;
+  clear: both;
+}
+
+.row-6 {
+  margin-bottom: 32px;
+}
+
+.text-field-8 {
+  width: 91%;
+}
+
+.textarea-2 {
+  width: 91%;
+}
+
+.textarea-3 {
+  width: 91%;
+}
+
+.text-block-8 {
+  padding-top: 31px;
+  padding-bottom: 30px;
+  line-height: 40px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.container-3 {
+  display: block;
+  padding-top: 30px;
+}
+
+.row-7 {
+  width: 100%;
+}
+
+.recaptcha {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media (max-width: 991px) {
